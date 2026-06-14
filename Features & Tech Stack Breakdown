@@ -1,0 +1,14 @@
+                              Features & Tech Stack Breakdown
+Strategic Hackathon Features :
+- Biologically Plausible Edge Inference: Instead of running heavy frame-based artificial neural network algorithms, the engine processes data as discrete biological events using an asynchronous Leaky Integrate-and-Fire (snn.Leaky) paradigm.
+- On-the-Fly Dynamic Threshold Delta-Modulation: Converts 1D time-series voltages into multi-channel tensor spike matrices using an adaptable $\Delta V$ delta tracking threshold controlled by the user via a live UI slider
+- Hardware-Aware Green-Compute Evaluation: Continuously measures the exact tensor matrix sparsity ($1.0 - \frac{\text{Active Spikes}}{\text{Total Tensor Elements}}$) to estimate theoretical dynamic power savings.
+- Dual-Channel Spike Waveform Mapping: Breaks signal behavior down into separate localized matrices tracking positive value escalations vs negative valuation drops.
+- Real-time Diagnostic Hazard Banners: Provides immediate, reactive state evaluations via Streamlit visual nodes, automatically alerting developers if irregular ventricular layouts trigger rapid output spikes.
+
+Production-Level Tech Stack:
+- Neuromorphic Framework: snnTorch ($\ge$ 0.9.0) — Used to handle time-stepped membrane mechanics, surrogate fast-sigmoid threshold operations, and biological leakage arrays
+- Tensor Engineering Core: PyTorch ($\ge$ 2.0.0) — Manages the multi-dimensional tracking weights, matrix multiplications, execution tracking, and multi-step tensor aggregations.
+- Interactive Frontend Engine: Streamlit ($\ge$ 1.25.0) — Drives the real-time parameter tracking interface and session-state model caching layer.
+- Visual Telemetry Engine: Plotly ($\ge$ 5.15.0) — Powering smooth, interactive line tracks for continuous signals alongside comprehensive 2D heatmap plots for spike trends.
+- Data Scaffolding Array: NumPy & Pandas — Handles fast signal modulation, geometric synthetic rhythm additions, and quick array adjustments.
