@@ -1,0 +1,28 @@
+                             Setup & Installation Instructions
+
+Ensure you have Python 3.10 or 3.11 installed locally
+
+1. Clone the Repository: 
+      git clone <your-repo-link>
+      cd neurofit-dashboard
+
+2. Set Up a Clean Virtual Environment:
+- # Create environment
+    python -m venv venv
+
+- # Activate environment (MacOS/Linux)
+    source venv/bin/activate
+
+- # Activate environment (Windows)
+    venv\Scripts\activate
+
+3. Install Required Dependencies :
+   -  pip install -r requirements.txt
+
+4. Run the Edge Application Core :
+-  streamlit run app.py
+
+NOTE : The interface will automatically spin up on your local network host, typically at http://localhost:8501.
+
+
+    
